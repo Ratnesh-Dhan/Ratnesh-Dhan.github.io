@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Navbar from '@/components/Navbar';
 import { motion } from "framer-motion";
 import Link from 'next/link';
+import Image from 'next/image';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -51,8 +52,8 @@ export default function Home() {
         <div id='some works' className='flex items-center justify-center'>
           <div className='rounded-lg p-2 mr-5 bg-[#3C3D37]'>
             <Link href="https://weather-dashboard-seven-jade.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
-              <img 
-                src="./WeatherPic.png" 
+              <Image 
+                src="/Ratnesh-Dhan.github.io/WeatherPic.png" 
                 alt="Weather Dashboard Preview" 
                 width={500} 
                 height={300} 
@@ -63,8 +64,8 @@ export default function Home() {
           </div>
           <div className='rounded-lg p-2 bg-[#3C3D37] '>
             <Link href="https://vocbuild.com/" target="_blank" rel="noopener noreferrer"  className="block">
-              <img 
-                src='./Vocbuild.png'
+              <Image 
+                src='/Ratnesh-Dhan.github.io/Vocbuild.png'
                 alt="Vocbuild Preview"
                 width={500}
                 height={300}
