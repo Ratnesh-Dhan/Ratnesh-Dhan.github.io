@@ -1,11 +1,19 @@
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import { MdEmail } from 'react-icons/md'
 
 const Contact = () => {
   return (
     <React.Fragment>
         <Navbar />
-        <h2 className='text-center text-2xl mt-20'>Contact Details</h2>
+        <div className='m-20'>
+
+        <h2 className='text-6xl font-bold md:text-8xl text-[#697565]'>Contact.</h2>
+        <div className='m-20 flex items-center'>
+        <MdEmail size={40} />
+        <a href='mailto:ratneshdhan@gmail.com' className='ml-10 text-xl font-bold text-blue-300'>ratneshdhan@gmail.com</a>
+        </div>
+        </div>
     </React.Fragment>
   )
 }
