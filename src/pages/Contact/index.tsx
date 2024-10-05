@@ -1,6 +1,5 @@
 import Navbar from '@/components/Navbar'
 import React from 'react'
-import { ImLinkedin } from 'react-icons/im'
 import { MdEmail } from 'react-icons/md'
 
 const Contact = () => {
