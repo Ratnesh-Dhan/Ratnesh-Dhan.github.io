@@ -44,6 +44,7 @@ const Navbar = () => {
               </a>
           </motion.div>
           </div>
+          <div>
           <motion.div
             whileHover={{scale: 1.2, rotate: -360, transition: {duration: 0.5}}}
             >
@@ -52,6 +53,7 @@ const Navbar = () => {
          <GrLinkedin size={32}/>
          </a>
           </motion.div>
+          </div>
           </div>
     </div>
   );
