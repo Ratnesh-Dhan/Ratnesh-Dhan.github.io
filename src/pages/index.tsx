@@ -15,7 +15,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export default function Home() {
+const  Home = () => {
   return (
     <div
       className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] bg-[#181C14] text-[#ECDFCC]`}
@@ -52,7 +52,7 @@ export default function Home() {
           <div className='rounded-lg p-2 mr-5 bg-[#3C3D37]'>
             <Link href="https://weather-dashboard-seven-jade.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
               <Image 
-                src="/Ratnesh-Dhan.github.io/WeatherPic.png" 
+                src="/WeatherPic.png" 
                 alt="Weather Dashboard Preview" 
                 width={500} 
                 height={300} 
@@ -64,7 +64,7 @@ export default function Home() {
           <div className='rounded-lg p-2 bg-[#3C3D37] '>
             <Link href="https://vocbuild.com/" target="_blank" rel="noopener noreferrer"  className="block">
               <Image 
-                src='/Ratnesh-Dhan.github.io/Vocbuild.png'
+                src='/Vocbuild.png'
                 alt="Vocbuild Preview"
                 width={500}
                 height={300}
@@ -78,3 +78,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;
