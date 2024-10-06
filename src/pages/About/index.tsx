@@ -13,6 +13,11 @@ const About = () => {
          I&apos;ve worked on a range of projects, from banking software to freelance web development, where I contributed to delivering seamless user experiences.
 
 I love staying up-to-date with the latest technologies by working on personal projects and exploring new tools like Tailwind CSS and Zustand. While I have dabbled in backend technologies like Node.js and Java, my primary focus is front-end development, where I excel at creating clean, efficient, and responsive code.</p>
+      
+      <p className='font-light text-center md:text-left text-xl mt-5 md:mt-10 text-[#ECDFCC]'>         I graduated with a Bachelor of Engineering in Computer Science 
+        from <span className='text-[#FFDC7F] font-bold'>Birla Institute of Technology Mesra</span>. During my studies, I gained a solid foundation in programming, algorithms, and software development principles, which have been 
+        instrumental in my career. My time at college helped me hone my problem-solving skills and introduced me to various technologies, laying the groundwork for
+        my professional journey in software development.</p>
       </div>
     </React.Fragment>
   )

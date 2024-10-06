@@ -1,8 +1,7 @@
 import localFont from "next/font/local";
 import Navbar from '@/components/Navbar';
 import { motion } from "framer-motion";
-import Link from 'next/link';
-import Image from 'next/image';
+import Projectcard from "@/components/Projectcard";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -49,30 +48,18 @@ const  Home = () => {
       <div className='min-h-screen pt-8'>
         <h3 className='text-2xl text-center m-8'>Some of my works</h3>
         <div id='some works' className='flex items-center justify-center'>
-          <div className='rounded-lg p-2 mr-5 bg-[#3C3D37]'>
-            <Link href="https://weather-dashboard-seven-jade.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
-              <Image 
-                src="/WeatherPic.png" 
-                alt="Weather Dashboard Preview" 
-                width={500} 
-                height={300} 
-                className="rounded-lg"
-              />
-            </Link>
-            <span className="text-[#ECDFCC]">Weather app</span>
-          </div>
-          <div className='rounded-lg p-2 bg-[#3C3D37] '>
-            <Link href="https://vocbuild.com/" target="_blank" rel="noopener noreferrer"  className="block">
-              <Image 
-                src='/Vocbuild.png'
-                alt="Vocbuild Preview"
-                width={500}
-                height={300}
-                className='rounded-lg'
-              />
-            </Link>
-            <span className='text-[#ECDFCC] m-3'>Online video dictonary</span>
-          </div>
+        <Projectcard 
+          link="https://my-weather-search.vercel.app/"
+          image="/WeatherPic.png"
+          title="Weather Dashboard"
+          description="weather dashboard app"
+        />
+          <Projectcard 
+          link="https://vocbuild.com/"
+          image='/Vocbuild.png'
+          title="Vocbuild"
+          description="Online video dictionary"
+        />
         </div>
       </div>
     </div>
