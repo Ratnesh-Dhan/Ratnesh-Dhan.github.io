@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {
-  const active_link_color = "#ffc107";
+  const active_link_class = "font-bold text-2xl text-[#ffc107]";
   const router = useRouter();
   return (
     <div className='bg-[#3C3D37] p-6 flex items-center justify-around text-xl pl-[30%] pr-[20%]'>
@@ -21,19 +21,19 @@ const Navbar = () => {
           initial={{ y: 0, rotate: 0 }}
           whileHover={{y: [0,-5,5,-5,5,0], rotate: [0,-5,5,-5,5,0], transition: { duration: 0.3 } }}
           >
-            <Link href={"/About"} className={router.pathname=== "/About"?`font-bold text-2xl text-[${active_link_color}]`: ''}>About</Link>
+            <Link href={"/About"} className={router.pathname=== "/About"? active_link_class: ''}>About</Link>
             </motion.span>
         <motion.span 
           initial={{ y: 0, rotate: 0 }}
           whileHover={{y: [0,-5,5,-5,5,0], rotate: [0,-5,5,-5,5,0], transition: { duration: 0.3 } }}
         >
-          <Link href={"/Projects"} className={router.pathname==="/Projects"? `font-bold text-2xl text-[${active_link_color}]`:  ''}>Projects</Link>
+          <Link href={"/Projects"} className={router.pathname==="/Projects"? active_link_class:  ''}>Projects</Link>
           </motion.span>
         <motion.span
           initial={{ y: 0, rotate: 0 }}
           whileHover={{y: [0,-5,5,-5,5,0], rotate: [0,-5,5,-5,5,0], transition: { duration: 0.3 } }}
           >
-            <Link href={"/Contact"} className={router.pathname==="/Contact"?`font-bold text-2xl text-[${active_link_color}]`: ''}>Contact</Link>
+            <Link href={"/Contact"} className={router.pathname==="/Contact"? active_link_class: ''}>Contact</Link>
           </motion.span>
         <div className='pl-10 flex'>
           <div className='mr-6'>
