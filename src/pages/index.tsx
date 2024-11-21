@@ -42,7 +42,7 @@ const  Home = () => {
             stiffness: 70, 
             mass: 0.8
           }}
-          >Frontend developer</motion.p>
+          >FullStack developer</motion.p>
           <p className='absolute right-[-30px] bottom-[150px] rotate-[90deg]'>scroll down ⇾</p>
       </div>
       <div className='min-h-screen pt-8'>

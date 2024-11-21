@@ -8,7 +8,7 @@ const About = () => {
       <div className='md:m-20 m-5'>
 
       <h2 className='text-6xl font-bold md:text-8xl text-[#697565]'>About.</h2>
-      <p className='font-light text-center md:text-left text-xl mt-5 md:mt-10 text-[#ECDFCC]'>Hi, I&apos;m Ratnesh Dhan, a software developer with 1.8 years of 
+      <p className='font-light text-center md:text-left text-xl mt-5 md:mt-10 text-[#ECDFCC]'>Hi, I&apos;m Ratnesh Dhan, a software developer with 1.9 years of 
         experience building scalable and user-friendly applications. I specialize in <span className='text-[#FFDC7F] font-bold'>Next.js</span>, <span className='text-[#FFDC7F] font-bold'>React.js</span>, <span className='text-[#FFDC7F] font-bold'>JavaScript</span>, <span className='text-[#FFDC7F] font-bold'>TypeScript</span>, <span className='text-[#FFDC7F] font-bold'>Node.js</span>, <span className='text-[#FFDC7F] font-bold'>Flask</span> and <span className='text-[#FFDC7F] font-bold'>JAVA</span>
         , delivering efficient and robust solutions across the stack.</p>
 
