@@ -1,10 +1,9 @@
-import Navbar from '@/components/Navbar';
+
 import React from 'react';
 
 const About = () => {
   return (
     <React.Fragment>
-      <Navbar />
       <div className='md:m-20 m-5'>
 
       <h2 className='text-6xl font-bold md:text-8xl text-[#697565]'>About.</h2>

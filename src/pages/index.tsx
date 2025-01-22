@@ -17,9 +17,8 @@ const geistMono = localFont({
 const  Home = () => {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] bg-[#181C14] text-[#ECDFCC]`}
+      className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]  text-[#ECDFCC]`}
     >
-      <Navbar />
       <div className='h-[100vh] flex flex-col justify-center p-28 relative'>
         <motion.div
           className='text-7xl font-bold'

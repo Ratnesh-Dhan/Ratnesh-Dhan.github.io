@@ -1,11 +1,10 @@
-import Navbar from '@/components/Navbar'
+
 import Projectcard from '@/components/Projectcard'
 import React from 'react'
 
 const Projects = () => {
   return (
     <React.Fragment>
-      <Navbar />
       <div className='md:m-20 mt-10 ml-4'>
 
         <h2 className='text-6xl font-bold md:text-8xl text-[#697565]'>Projects.</h2>
