@@ -50,7 +50,13 @@ const Home = () => {
       </div>
       <div className="min-h-screen pt-8">
         <h3 className="text-2xl text-center m-8">Some of my works</h3>
-        <div id="some works" className="flex items-center justify-center">
+        <div id="some works" className="flex justify-between flex-wrap mx-20">
+          <Projectcard
+            link="https://github.com/Ratnesh-Dhan/ImageModder/releases/tag/v1.0"
+            image="/ImageMod.png"
+            title="ImageMod"
+            description="An image processing tool for scientific applications"
+          />
           <Projectcard
             link="https://my-weather-search.vercel.app/"
             image="/WeatherPic.png"
