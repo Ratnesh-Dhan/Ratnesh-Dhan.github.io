@@ -52,7 +52,7 @@ const Home = () => {
         <h3 className="text-2xl text-center m-8">Some of my works</h3>
         <div id="some works" className="flex justify-between flex-wrap mx-20">
           <Projectcard
-            link="https://github.com/Ratnesh-Dhan/ImageModder/releases/tag/v1.0"
+            link="https://github.com/Ratnesh-Dhan/ImageModder/releases/tag/v1.1"
             image="/ImageMod.png"
             title="ImageMod"
             description="An image processing tool for scientific applications"

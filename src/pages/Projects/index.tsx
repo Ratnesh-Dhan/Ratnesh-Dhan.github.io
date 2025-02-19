@@ -11,7 +11,7 @@ const Projects = () => {
       </div>
       <div className="flex flex-wrap justify-between items-start md:mx-80 mx-5 ">
         <Projectcard
-          link="https://github.com/Ratnesh-Dhan/ImageModder/releases/tag/v1.0"
+          link="https://github.com/Ratnesh-Dhan/ImageModder/releases/tag/v1.1"
           image="/ImageMod.png"
           title="ImageMod"
           description="An advanced image processing tool for scientific applications, featuring filtering, enhancement, and transformation for precise analysis and visualization."
