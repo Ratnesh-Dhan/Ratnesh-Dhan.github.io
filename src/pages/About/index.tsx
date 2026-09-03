@@ -1,30 +1,33 @@
-
-import React from 'react';
-
 const About = () => {
   return (
-    <React.Fragment>
-      <div className='md:m-20 m-5'>
-
-      <h2 className='text-6xl font-bold md:text-8xl text-[#697565]'>About.</h2>
-      <p className='font-light text-center md:text-left text-xl mt-5 md:mt-10 text-[#ECDFCC]'>Hi, I&apos;m Ratnesh Dhan, a software developer with 1.9 years of 
-        experience building scalable and user-friendly applications. I specialize in <span className='text-[#FFDC7F] font-bold'>Next.js</span>, <span className='text-[#FFDC7F] font-bold'>React.js</span>, <span className='text-[#FFDC7F] font-bold'>JavaScript</span>, <span className='text-[#FFDC7F] font-bold'>TypeScript</span>, <span className='text-[#FFDC7F] font-bold'>Node.js</span>, <span className='text-[#FFDC7F] font-bold'>Flask</span> and <span className='text-[#FFDC7F] font-bold'>JAVA</span>
-        , delivering efficient and robust solutions across the stack.</p>
-
-
-<p className='font-light text-center md:text-left text-xl mt-5 md:mt-10 text-[#ECDFCC]'>At LumioAI, I developed a <span className='text-[#FFDC7F] font-bold'>Retrieval-Augmented Generation (RAG)</span> system, 
-leveraging <span className='text-[#FFDC7F] font-bold'>AI/ML</span> technologies to design intelligent query processing and data retrieval workflows, while enhancing front-end interactivity with a user-friendly 
-interface. Previously at Wipro, I contributed to scalable web applications, focusing on state management and responsive design.
-
-</p>
-      
-      <p className='font-light text-center md:text-left text-xl mt-5 md:mt-10 text-[#ECDFCC]'>         I graduated with a Bachelor of Engineering in Computer Science 
-        from <span className='text-[#FFDC7F] font-bold'>Birla Institute of Technology Mesra</span>. During my studies, I gained a solid foundation in programming, algorithms, and software development principles, which have been 
-        instrumental in my career. My time at college helped me hone my problem-solving skills and introduced me to various technologies, laying the groundwork for
-        my professional journey in software development.</p>
+    <main className="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
+      <p className="text-sm font-semibold uppercase text-[#e0b15a]">About</p>
+      <h1 className="mt-3 text-4xl font-black text-white sm:text-6xl">
+        Full-stack developer with a practical AI edge.
+      </h1>
+      <div className="mt-8 space-y-6 text-lg leading-8 text-slate-300">
+        <p>
+          Hi, I&apos;m Ratnesh Dhan. I build full-stack applications and
+          AI-driven tools across TypeScript, JavaScript, Python, Node.js,
+          Next.js, React, and PyTorch. My work spans web development, computer
+          vision, LLM applications and MCP-based AI systems.
+        </p>
+        <p>
+          At CSIR-NML, I develop research-oriented software and computer vision
+          solutions for industrial defect analysis, corrosion segmentation, and
+          automated coal composition assessment. I also build personal projects
+          such as Jinah, an MCP-powered AI assistant, and ComLook, an AI-powered
+          manga translation tool for Japanese and Chinese content.
+        </p>
+        <p>
+          Previously at LumioAI, I worked on RAG systems and intelligent
+          retrieval workflows, while at Wipro, I contributed to scalable web
+          applications. I hold a Bachelor of Engineering in Computer Science
+          from Birla Institute of Technology Mesra.
+        </p>
       </div>
-    </React.Fragment>
-  )
-}
+    </main>
+  );
+};
 
-export default About
+export default About;

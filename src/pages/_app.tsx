@@ -1,11 +1,18 @@
 import Layout from "@/components/Layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <Component {...pageProps} />;
-    </Layout>
+    <>
+      <Head>
+        <title>CodingCroc</title>
+        <link rel="icon" type="image/png" href="/codingcroc.png" />
+      </Head>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   );
 }
